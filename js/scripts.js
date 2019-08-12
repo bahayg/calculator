@@ -13,3 +13,9 @@ var subtract=function(number1, number2){
   var number2=parseInt(prompt("Enter another number:"));
   var result=subtract(number1, number2);
   alert(result);
+
+  function calculateBMI(weight_in_lbs, height_in_inches){
+	return (weight_in_lbs/height_in_inches**2) * 703;
+}
+
+alert(calculateBMI(prompt("What is your weight in lbs?"), prompt("What is your height in inches?")))
