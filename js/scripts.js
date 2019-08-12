@@ -26,3 +26,9 @@ return (celsius*1.8) + 32;
 };
 var result=convertCtoF(prompt("Enter the temperature in Celsius:"));
 alert(result);
+
+function gramsToOunces(grams) {
+	return grams/(28.35);
+}
+alert(gramsToOunces(prompt("How many grams would you like me" +
+" to convert to ounces?")))
